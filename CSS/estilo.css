@@ -204,13 +204,11 @@ footer {
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    width: 70%;
-    height: 2%;
-    padding: 7rem;
+    width: 80%;
+   
 }
 
 #divProdTitu{
-    height: 10%;
     width: 100%;
 }
 
@@ -233,7 +231,7 @@ footer {
 .desProd
 {   
     color:#5C4E41;
-    font-size: 15px;
+    font-size: 80%;
     text-align: center;
     font-family: 'Lato', sans-serif;
 
@@ -266,7 +264,7 @@ footer {
     grid-area: des1;
     justify-self: center;
     width: 80%;
-    height: 100%;   
+    height: 120%;   
     background-color: #DACDBC;
     border: 4px solid #5C4E41;
     margin-bottom: 10%;
@@ -282,7 +280,7 @@ footer {
     grid-area: des2;
     justify-self: center;
     width: 80%;
-    height: 100%;   
+    height: 120%;   
     background-color: #DACDBC;
     border: 4px solid #5C4E41;
     margin-bottom: 10%;
@@ -298,7 +296,7 @@ footer {
     grid-area: des3;
     justify-self: center;
     width: 80%;
-    height: 100%;   
+    height: 120%;   
     background-color: #DACDBC;
     border: 4px solid #5C4E41;
     margin-bottom: 10%;
@@ -337,7 +335,7 @@ footer {
     grid-area: des4;
     justify-self: center;
     width: 80%;
-    height: 100%;   
+    height: 120%;   
     background-color: #DACDBC;
     border: 4px solid #5C4E41;
     margin-bottom: 10%;
@@ -353,7 +351,7 @@ footer {
     grid-area: des5;
     justify-self: center;
     width: 80%;
-    height: 100%;   
+    height: 120%;   
     background-color: #DACDBC;
     border: 4px solid #5C4E41;
     margin-bottom: 10%;
@@ -369,7 +367,7 @@ footer {
     grid-area: des6;
     justify-self: center;
     width: 80%;
-    height: 100%;   
+    height: 120%;   
     background-color: #DACDBC;
     border: 4px solid #5C4E41;
     margin-bottom: 10%;
@@ -406,7 +404,7 @@ footer {
     grid-area: des7;
     justify-self: center;
     width: 80%;
-    height: 100%;   
+    height: 120%;   
     background-color: #DACDBC;
     border: 4px solid #5C4E41;
     margin-bottom: 10%;
@@ -422,7 +420,7 @@ footer {
     grid-area: des8;
     justify-self: center;
     width: 80%;
-    height: 100%;   
+    height: 120%;   
     background-color: #DACDBC;
     border: 4px solid #5C4E41;
     margin-bottom: 10%;
@@ -438,7 +436,7 @@ footer {
     grid-area: des9;
     justify-self: center;
     width: 80%;
-    height: 100%;   
+    height: 120%;   
     background-color: #DACDBC;
     border: 4px solid #5C4E41;
     margin-bottom: 10%;
@@ -462,7 +460,7 @@ footer {
     }
 
 #sectionGaleria{
-    width: 70%;
+    width: 80%;
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
     grid-template-rows: 3fr 3fr 3fr;
@@ -899,7 +897,7 @@ select{
     
     .parrafoSobreNos {
         color:#5C4E41;
-        font-size: 60%;
+        font-size: 53%;
         text-align: justify;
         font-family: 'Lato', sans-serif;
         margin: 1% 2% 2% 2%;   
@@ -915,7 +913,7 @@ select{
     
     #tituloFilosofiaHache{
         color:#5C4E41;
-        font-size: 55%;
+        font-size: 65%;
         height: 100%;
         text-align: center;
         margin-left: 10px;
@@ -935,11 +933,11 @@ select{
     .parrafoCaracteristicas{
             color:#5C4E41;
             font-weight: bolder;
-            font-size: 15%;
+            font-size: 50%;
             text-align: center;
             margin-left: 10px;
             margin-right: 10px;
-            margin-top: 25px;
+            margin-top: 30px;
             font-family: 'Lato', sans-serif;
         
         }
@@ -1079,7 +1077,7 @@ select{
         border:2px solid #DACDBC;
         color: #352a20;
         width: 35%;
-        font-size: 3px;
+        font-size: 25%;
     }
     
     #flexRadioDefault1{
@@ -1105,8 +1103,12 @@ select{
         }
 
     .desProd    
-    {font-size: 30%;
+    {font-size: 40%;
         margin: 0;}
+
+    .sectionCarousel{
+    width: 70%;
+             }
 
 }
 
@@ -1261,7 +1263,7 @@ select{
     
     #tituloFilosofiaHache{
         color:#5C4E41;
-        font-size: 40%;
+        font-size: 50%;
         height: 100%;
         text-align: center;
         margin-left: 10px;
@@ -1281,11 +1283,11 @@ select{
     .parrafoCaracteristicas{
         color:#5C4E41;
         font-weight: bolder;
-        font-size: 10%;
+        font-size: 40%;
         text-align: center;
         margin-left: 10px;
         margin-right: 10px;
-        margin-top: 25px;
+        margin-top: 20px;
         font-family: 'Lato', sans-serif;
     
     }
@@ -1451,6 +1453,10 @@ select{
     .desProd
         {font-size: 25%;
          margin: 0;}
+
+    .sectionCarousel{
+        width: 70%;
+            }
   
 }
 
