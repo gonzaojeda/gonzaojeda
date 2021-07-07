@@ -1,0 +1,186 @@
+.bodyGeneral, body {
+  background-image: url("../Imagenes/fondoIndex.jpg");
+  height: 2500px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.gridGeneral, body .gridIndex {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 5% 92% 3%;
+  grid-template-areas: "header header" "main main" "footer footer"; }
+
+body .gridIndex header {
+  width: 100%;
+  background-color: #DACDBC;
+  position: sticky;
+  z-index: 10;
+  top: 0px;
+  grid-area: header; }
+  body .gridIndex header .divNav {
+    width: 100%;
+    background-color: #DACDBC;
+    border: 1px solid #5C4E41; }
+    body .gridIndex header .divNav .divUno {
+      width: 10%; }
+      body .gridIndex header .divNav .divUno .imgLogo {
+        width: 100%;
+        border: 1px solid #5C4E41; }
+  body .gridIndex header .ulUno {
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center; }
+    body .gridIndex header .ulUno .botonesMenu {
+      font-size: 90%; }
+    body .gridIndex header .ulUno .botonesMenu:hover {
+      transform: scale(1.2, 1.2);
+      transition: 0.5s;
+      color: #5C4E41; }
+
+body .gridIndex .mainIndex {
+  display: flex;
+  flex-direction: column;
+  grid-area: main;
+  align-items: center;
+  justify-content: space-around; }
+  body .gridIndex .mainIndex .sectionIndexUno {
+    width: 80%; }
+    body .gridIndex .mainIndex .sectionIndexUno .divTitulo {
+      width: 100%; }
+      body .gridIndex .mainIndex .sectionIndexUno .divTitulo .tituloMain {
+        color: #5C4E41;
+        text-align: center;
+        margin-left: 30%;
+        margin-right: 30%;
+        font-family: "Lato", sans-serif;
+        background-color: #DACDBC;
+        border: 4px groove #5C4E41;
+        padding: 5% 5% 5% 5%; }
+  body .gridIndex .mainIndex .sectionIndexDos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    body .gridIndex .mainIndex .sectionIndexDos .divImagenIndex {
+      width: 40%;
+      height: 100%;
+      border: 2px solid #5C4E41; }
+      body .gridIndex .mainIndex .sectionIndexDos .divImagenIndex #imagenIndex {
+        width: 100%; }
+
+body .gridIndex footer {
+  background-color: #DACDBC;
+  border: 2px solid #5C4E41;
+  grid-area: footer;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end; }
+  body .gridIndex footer #divFooterUno {
+    width: 50%; }
+    body .gridIndex footer #divFooterUno .spanFooter {
+      width: 95%;
+      margin-left: 5px; }
+      body .gridIndex footer #divFooterUno .spanFooter #logoIg {
+        width: 7%; }
+      body .gridIndex footer #divFooterUno .spanFooter #logoIg:hover {
+        transform: scale(1.2, 1.2);
+        transition: 0.5s; }
+      body .gridIndex footer #divFooterUno .spanFooter #logoWp {
+        width: 7%; }
+      body .gridIndex footer #divFooterUno .spanFooter #logoWp:hover {
+        transform: scale(1.2, 1.2);
+        transition: 0.5s; }
+  body .gridIndex footer #divFooterDos {
+    width: 50%; }
+    body .gridIndex footer #divFooterDos .spanCopyright {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end; }
+    body .gridIndex footer #divFooterDos .parrafoCopyright {
+      color: #5C4E41;
+      font-family: "Lato", sans-serif;
+      margin-bottom: 0; }
+
+@media only screen and (max-width: 600px) {
+  body {
+    height: 1500px; }
+    body .gridIndex {
+      grid-template-rows: 3% 94% 3%; }
+      body .gridIndex header .divNav .divUno {
+        width: 15%; }
+      body .gridIndex .tituloMain {
+        font-size: 70%; }
+      body .gridIndex .parrafoCopyright {
+        font-size: 50%; }
+      body .gridIndex .botonesMenu {
+        font-size: 80%; } }
+
+@media only screen and (max-width: 400px) {
+  body {
+    height: 1000px; }
+    body .gridIndex {
+      grid-template-rows: 3% 94% 3%; }
+      body .gridIndex header .divNav .divUno {
+        width: 20%; }
+      body .gridIndex .tituloMain {
+        font-size: 50%; }
+      body .gridIndex .parrafoCopyright {
+        font-size: 40%; }
+      body .gridIndex .botonesMenu {
+        font-size: 70%; } }
+
+@media only screen and (min-width: 600px) {
+  body {
+    height: 1900px; }
+    body .gridIndex {
+      grid-template-rows: 3% 94% 3%; }
+      body .gridIndex header .divNav .divUno {
+        width: 12%; }
+      body .gridIndex .tituloMain {
+        font-size: 80%; }
+      body .gridIndex .parrafoCopyright {
+        font-size: 50%; }
+      body .gridIndex .botonesMenu {
+        font-size: 80%; } }
+
+@media only screen and (min-width: 768px) {
+  body {
+    height: 2100px; }
+    body .gridIndex {
+      grid-template-rows: 4% 93% 3%; }
+      body .gridIndex header .divNav .divUno {
+        width: 10%; }
+      body .gridIndex .tituloMain {
+        font-size: 100%; }
+      body .gridIndex .parrafoCopyright {
+        font-size: 70%; }
+      body .gridIndex .botonesMenu {
+        font-size: 90%; } }
+
+@media only screen and (min-width: 992px) {
+  body {
+    height: 2300px; }
+    body .gridIndex {
+      grid-template-rows: 4% 93% 3%; }
+      body .gridIndex header .divNav .divUno {
+        width: 10%; }
+      body .gridIndex .tituloMain {
+        font-size: 120%; }
+      body .gridIndex .parrafoCopyright {
+        font-size: 85%; } }
+
+@media only screen and (min-width: 1080px) {
+  body {
+    height: 2500px; }
+    body .gridIndex {
+      grid-template-rows: 5% 92% 3%; }
+      body .gridIndex header .divNav .divUno {
+        width: 10%; }
+      body .gridIndex .tituloMain {
+        font-size: 150%; }
+      body .gridIndex .parrafoCopyright {
+        font-size: 90%; } }

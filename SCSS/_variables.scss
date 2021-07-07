@@ -1,0 +1,44 @@
+//Variables declaradas//
+$colorFondo: #DACDBC;
+$colorBordes: #5C4E41;
+$imagenFondo: url("../Imagenes/fondoIndex.jpg");
+$fuente: 'Lato', sans-serif;
+
+//Declarando variables y aplicándolas con mixin//
+$max400: 1000px;
+$max600: 1500px;
+$min600: 1900px;
+$min768: 2100px;
+$min992: 2300px;
+$min1080: 2500px;
+
+@mixin pantallaUno ($max400)
+    {
+     height: $max400;
+    }
+
+@mixin pantallaDos ($max600)
+    {
+     height: $max600;
+    }
+
+@mixin pantallaTres ($min600)
+    {
+     height: $min600;
+    }
+
+@mixin pantallaCuatro ($min768)
+    {
+     height: $min768;
+    }
+
+@mixin pantallaCinco ($min992)
+    {
+     height: $min992;
+    }
+
+@mixin pantallaSeis ($min1080)
+    {
+     height: $min1080;
+    }
+

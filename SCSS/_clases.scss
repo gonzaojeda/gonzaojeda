@@ -1,0 +1,20 @@
+// Clase .bodyGeneral y .gridGeneral para aplicar Extend //
+
+.bodyGeneral{
+    background-image: $imagenFondo;
+    height: 2500px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.gridGeneral {
+        display: grid;
+        height: 100%;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 5% 92% 3%;
+        grid-template-areas: "header header"
+                             "main main"
+                             "footer footer";
+}
